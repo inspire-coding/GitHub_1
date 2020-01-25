@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity()
         button.setOnClickListener {
             Toast.makeText(this, "Button clicked!", Toast.LENGTH_SHORT).show()
             Toast.makeText(this, "Test branch!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Test branch - 2!", Toast.LENGTH_SHORT).show()
         }
     }
 }
