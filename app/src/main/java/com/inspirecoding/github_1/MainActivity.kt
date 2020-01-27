@@ -13,7 +13,8 @@ class MainActivity : AppCompatActivity()
         setContentView(R.layout.activity_main)
 
         button.setOnClickListener {
-            Toast.makeText(this, "Inspire Coding", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Button clicked!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Test Toast branch", Toast.LENGTH_SHORT).show()
         }
     }
 }
